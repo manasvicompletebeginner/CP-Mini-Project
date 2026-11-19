@@ -1,0 +1,277 @@
+{
+  "rooms": {
+    "TD5MHH": {
+      "code": "TD5MHH",
+      "owner": "riya",
+      "name": "Room #1",
+      "activity": "Dinner at Haldiram's",
+      "date": "2026-08-14",
+      "total_amount": 1600.0,
+      "total_people": 4,
+      "split_type": "equal",
+      "created_at": "2026-11-19T19:55:37",
+      "dissolved_at": "2026-11-19T19:55:37",
+      "members": [
+        {
+          "username": "aman",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": true,
+          "paid_at": "2026-11-19T19:55:37"
+        },
+        {
+          "username": "neha",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": true,
+          "paid_at": "2026-11-19T19:55:37"
+        },
+        {
+          "username": "kabir",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": true,
+          "paid_at": "2026-11-19T19:55:37"
+        }
+      ]
+    },
+    "0E6FY8": {
+      "code": "0E6FY8",
+      "owner": "aman",
+      "name": "PVR Saturday",
+      "activity": "Movie night",
+      "date": "2026-08-30",
+      "total_amount": 1200.0,
+      "total_people": 4,
+      "split_type": "equal",
+      "created_at": "2026-11-19T19:55:37",
+      "dissolved_at": "2026-11-19T19:55:37",
+      "members": [
+        {
+          "username": "riya",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": true,
+          "paid_at": "2026-11-19T19:55:37"
+        },
+        {
+          "username": "neha",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": true,
+          "paid_at": "2026-11-19T19:55:37"
+        },
+        {
+          "username": "kabir",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": true,
+          "paid_at": "2026-11-19T19:55:37"
+        }
+      ]
+    },
+    "CTF44P": {
+      "code": "CTF44P",
+      "owner": "riya",
+      "name": "Room #2",
+      "activity": "Cab to Noida",
+      "date": "2026-09-05",
+      "total_amount": 450.0,
+      "total_people": 3,
+      "split_type": "equal",
+      "created_at": "2026-11-19T19:55:37",
+      "dissolved_at": "2026-11-19T19:55:37",
+      "members": [
+        {
+          "username": "aman",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": true,
+          "paid_at": "2026-11-19T19:55:37"
+        },
+        {
+          "username": "neha",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": true,
+          "paid_at": "2026-11-19T19:55:37"
+        }
+      ]
+    },
+    "TA7HSX": {
+      "code": "TA7HSX",
+      "owner": "neha",
+      "name": "Moksha passes",
+      "activity": "Fest tickets",
+      "date": "2026-09-21",
+      "total_amount": 2000.0,
+      "total_people": 4,
+      "split_type": "equal",
+      "created_at": "2026-11-19T19:55:37",
+      "dissolved_at": "2026-11-19T19:55:37",
+      "members": [
+        {
+          "username": "riya",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": true,
+          "paid_at": "2026-11-19T19:55:37"
+        },
+        {
+          "username": "aman",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": true,
+          "paid_at": "2026-11-19T19:55:37"
+        },
+        {
+          "username": "kabir",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": true,
+          "paid_at": "2026-11-19T19:55:37"
+        }
+      ]
+    },
+    "CYP28B": {
+      "code": "CYP28B",
+      "owner": "kabir",
+      "name": "Room #1",
+      "activity": "Dinner at Haldiram's",
+      "date": "2026-10-03",
+      "total_amount": 1400.0,
+      "total_people": 4,
+      "split_type": "equal",
+      "created_at": "2026-11-19T19:55:37",
+      "dissolved_at": "2026-11-19T19:55:37",
+      "members": [
+        {
+          "username": "riya",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": true,
+          "paid_at": "2026-11-19T19:55:37"
+        },
+        {
+          "username": "aman",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": true,
+          "paid_at": "2026-11-19T19:55:37"
+        },
+        {
+          "username": "neha",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": true,
+          "paid_at": "2026-11-19T19:55:37"
+        }
+      ]
+    },
+    "XV1U4B": {
+      "code": "XV1U4B",
+      "owner": "riya",
+      "name": "Room #3",
+      "activity": "Project printouts",
+      "date": "2026-10-18",
+      "total_amount": 360.0,
+      "total_people": 4,
+      "split_type": "equal",
+      "created_at": "2026-11-19T19:55:37",
+      "dissolved_at": "2026-11-19T19:55:37",
+      "members": [
+        {
+          "username": "aman",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": true,
+          "paid_at": "2026-11-19T19:55:37"
+        },
+        {
+          "username": "neha",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": true,
+          "paid_at": "2026-11-19T19:55:37"
+        },
+        {
+          "username": "kabir",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": true,
+          "paid_at": "2026-11-19T19:55:37"
+        }
+      ]
+    },
+    "RV1O2O": {
+      "code": "RV1O2O",
+      "owner": "riya",
+      "name": "Goa 2026",
+      "activity": "Goa trip deposit",
+      "date": "2026-11-15",
+      "total_amount": 8000.0,
+      "total_people": 5,
+      "split_type": "equal",
+      "created_at": "2026-11-19T19:55:37",
+      "dissolved_at": null,
+      "members": [
+        {
+          "username": "aman",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": true,
+          "paid_at": "2026-11-19T19:55:37"
+        },
+        {
+          "username": "neha",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": false,
+          "paid_at": null
+        }
+      ]
+    },
+    "FI6OEE": {
+      "code": "FI6OEE",
+      "owner": "aman",
+      "name": "Room #2",
+      "activity": "Birthday cake",
+      "date": "2026-11-18",
+      "total_amount": 1000.0,
+      "total_people": 3,
+      "split_type": "custom",
+      "created_at": "2026-11-19T19:55:37",
+      "dissolved_at": null,
+      "members": [
+        {
+          "username": "riya",
+          "joined_at": "2026-11-19T19:55:37",
+          "paid": false,
+          "paid_at": null
+        }
+      ],
+      "custom_shares": [
+        300.0,
+        300.0
+      ]
+    }
+  },
+  "users": {
+    "riya": {
+      "username": "riya",
+      "created_at": "2026-11-19T19:55:36",
+      "rooms_created": 4
+    },
+    "aman": {
+      "username": "aman",
+      "created_at": "2026-11-19T19:55:36",
+      "rooms_created": 2
+    },
+    "neha": {
+      "username": "neha",
+      "created_at": "2026-11-19T19:55:36",
+      "rooms_created": 1
+    },
+    "kabir": {
+      "username": "kabir",
+      "created_at": "2026-11-19T19:55:36",
+      "rooms_created": 1
+    },
+    "manasvi": {
+      "username": "manasvi",
+      "created_at": "2026-11-19T20:09:17",
+      "rooms_created": 0
+    },
+    "oorjit": {
+      "username": "oorjit",
+      "created_at": "2026-11-19T20:17:22",
+      "rooms_created": 0
+    },
+    "hyx": {
+      "username": "hyx",
+      "created_at": "2026-11-19T20:18:24",
+      "rooms_created": 0
+    }
+  }
+}
