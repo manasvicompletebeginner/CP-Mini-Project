@@ -8,7 +8,9 @@
 </head>
 <body>
   <header class="topbar">
-    <div class="brand"><span class="logo">₹</span> Expense Splitter</div>
+    <button type="button" class="brand" data-goto="home">
+      <span class="logo">₹</span> Expense Splitter
+    </button>
     <div id="user-chip" class="user-chip hidden">
       <span id="user-name"></span>
       <button id="logout-btn" class="link-btn" type="button">Switch student</button>
@@ -31,12 +33,9 @@
 
   <!-- ============ APP ============ -->
   <main id="app-screen" class="screen hidden">
-    <nav class="tabs" role="tablist">
-      <button class="tab active" data-tab="home">Home</button>
-      <button class="tab" data-tab="create">Create Room</button>
-      <button class="tab" data-tab="join">Join Room</button>
-      <button class="tab" data-tab="previous">Previous Rooms</button>
-    </nav>
+    <div id="back-bar" class="back-bar hidden">
+      <button class="btn back-btn" type="button" data-goto="home">← Back to Home</button>
+    </div>
 
     <!-- HOME -->
     <section id="tab-home" class="tab-panel">

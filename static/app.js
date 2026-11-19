@@ -91,10 +91,10 @@ $("#logout-btn").addEventListener("click", () => {
   $("#login-username").value = "";
 });
 
-/* ---------- tabs ---------- */
+/* ---------- navigation ---------- */
 function switchTab(name) {
   state.activeTab = name;
-  $$(".tab").forEach((t) => t.classList.toggle("active", t.dataset.tab === name));
+  $("#back-bar").classList.toggle("hidden", name === "home");
   $$(".tab-panel").forEach((p) => p.classList.toggle("hidden", p.id !== `tab-${name}`));
 
   clearInterval(state.pollTimer);
@@ -104,10 +104,14 @@ function switchTab(name) {
   }
   if (name === "previous") loadPrevious();
   if (name === "join") $("#join-code").focus();
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
-$$(".tab").forEach((t) => t.addEventListener("click", () => switchTab(t.dataset.tab)));
-$$("[data-goto]").forEach((b) => b.addEventListener("click", () => switchTab(b.dataset.goto)));
+$$("[data-goto]").forEach((b) =>
+  b.addEventListener("click", () => {
+    if (state.user) switchTab(b.dataset.goto);
+  })
+);
 
 /* ---------- room card rendering ---------- */
 function progressBar(room) {
